@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>#90's NOSTALGIA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+  
+  <nav class="bg-gray-800 p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-yellow-500">#90's NOSTALGIA</a>
+      <ul class="flex space-x-6">
+        <li><a href="#" class="hover:text-yellow-500">Home</a></li>
+        <li><a href="#reviews" class="hover:text-yellow-500">Reviews</a></li>
+        <li><a href="#contact" class="hover:text-yellow-500">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <section class="relative bg-contain bg-center h-[500px] flex items-center justify-center" style="background-image: url('images/BGimage.png');">
+    <div class="absolute inset-0" style="background-color: rgba(0, 0, 0, 0.1);"></div>
+    <div class="relative text-center z-10 bg-black bg-opacity-80 p-8 rounded-lg">
+      <h1 class="text-5xl font-bold text-white">Relive the Magic of 90's</h1>
+      <p class="mt-4 text-lg text-white">Experience reviews, iconic moments, and timeless classics from the golden era.</p>
+      <a href="#reviews" class="mt-6 inline-block bg-yellow-500 text-black px-6 py-3 rounded-lg hover:bg-yellow-600">Explore Now</a>
+    </div>
+  </section>
+  
+
+
+  <section id="bollywood-reviews" class="py-12">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">Latest 90's MOVIES (BOLLYWOOD)</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+       
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-md">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzafOtDfSPhBZN0Kjf_gaVdR8jH7P1ojzhwEwPGuNEnX138VEW_rR-v1lc10wVzajodbEM" alt="Dilwale Dulhania Le Jayenge" class="w-full h-64 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Dilwale Dulhania Le Jayenge (DDLJ)</h3>
+            <p class="mt-2 text-sm text-gray-400">A timeless love story that defined romance in Bollywood. The chemistry between Raj and Simran is unforgettable!</p>
+            <div class="flex items-center mt-4">
+                <span class="text-yellow-500">★★★★☆</span>
+                <span class="ml-2 text-sm text-gray-400">(4/5)</span> 
+            </div>
+            <button class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600" onclick="showTrivia('DDLJ')">View Cast & Trivia</button>
+          </div>
+        </div>
+       
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-md">
+            <img src="https://www.prabhatkhabar.com/wp-content/uploads/2024/05/hum-apke-hain-kaun.jpg" alt="HUM AAPKE HAIN KAUN" class="w-full h-64 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Hum Aapke Hain Koun</h3>
+            <p class="mt-2 text-sm text-gray-400">A heartwarming family drama filled with love, laughter, and unforgettable songs. A 90's classic!</p>
+            <div class="flex items-center mt-4">
+                <span class="text-yellow-500">★★★★★</span> 
+                <span class="ml-2 text-sm text-gray-400">(5/5)</span> 
+            </div>
+            <button class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600" onclick="showTrivia('HAHK')">View Cast & Trivia</button>
+          </div>
+        </div>
+        
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-md">
+          <img src="https://i2.cinestaan.com/image-bank/1500-1500/165001-166000/165176.jpg" alt="Andaz Apna Apna" class="w-full h-64 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Andaz Apna Apna</h3>
+            <p class="mt-2 text-sm text-gray-400">A comedy masterpiece starring Salman Khan and Aamir Khan. Hilarious and unforgettable!</p>
+            <div class="flex items-center mt-4">
+                <span class="text-yellow-500">★★★★★</span> 
+                <span class="ml-2 text-sm text-gray-400">(5/5)</span> 
+            </div>
+            <button class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600" onclick="showTrivia('AAA')">View Cast & Trivia</button>
+          </div>
+        </div>
+        
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-md">
+          <img src="https://m.media-amazon.com/images/M/MV5BYjViYWUyY2ItODIxYS00ZTM0LTg4YzktY2VhMzk5NzFjYjNiXkEyXkFqcGc@._V1_.jpg" alt="Kabhi Khushi Kabhie Gham" class="w-full h-64 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Kabhi Khushi Kabhie Gham</h3>
+            <p class="mt-2 text-sm text-gray-400">A multi-generational family drama filled with emotional moments and blockbuster songs. A true classic!</p>
+            <div class="flex items-center mt-4">
+                <span class="text-yellow-500">★★★★☆</span>
+                <span class="ml-2 text-sm text-gray-400">(4/5)</span> 
+            </div>
+            <button class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600" onclick="showTrivia('K3G')">View Cast & Trivia</button>
+          </div>
+        </div>
+       
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-md">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbVKkTt7Nxtq-Qt2cgU5AQvaj2VfUCP49mhA&s" alt="Agneepath" class="w-full h-64 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-bold">Agneepath</h3>
+              <p class="mt-2 text-sm text-gray-400">Agneepath is a man's quest for revenge against the criminals who destroyed his family, set against a backdrop of grit, resilience, and intense emotions.</p>
+              <div class="flex items-center mt-4">
+                <span class="text-yellow-500">★★★★☆</span> 
+                <span class="ml-2 text-sm text-gray-400">(4/5)</span> 
+              </div>
+              <button class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600" onclick="showTrivia('Agneepath')">View Cast & Trivia</button>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<section id="tollywood-reviews" class="py-12">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8 text-center">Latest 90's MOVIES (TOLLYWOOD)</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <div class="bg-gray-800 rounded-lg overflow-hidden shadow-md">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9oCKUbqtG6fBka2D5-oqJvThIh4jLEEwahg&s" alt="Dalapathy" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold">Dalapathy</h3>
+          <p class="mt-2 text-sm text-gray-400">Dalapathy (1991) is a Telugu action drama that follows a man’s journey through a criminal empire, balancing power, loyalty, and love</p>
+          <div class="flex items-center mt-4">
+            <span class="text-yellow-500">★★★★★</span> 
+            <span class="ml-2 text-sm text-gray-400">(5/5)</span> 
+          </div>
+          <button class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600" onclick="showTrivia('Dalapathy')">View Cast & Trivia</button>
+        </div>
+      </div>
+      
+      <div class="bg-gray-800 rounded-lg overflow-hidden shadow-md">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSHf_loClPDcctjUGFRpwIbWRWt_-EVEicAA&s" alt="Kshana Kshanam" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold">Kshana Kshanam</h3>
+          <p class="mt-2 text-sm text-gray-400">
+            Kshana Kshanam is a 1991 Telugu thriller film that follows the thrilling journey of a woman and a man caught in a treasure hunt, filled with suspense and twists</p>
+            <div class="flex items-center mt-4">
+                <span class="text-yellow-500">★★★★☆</span> 
+                <span class="ml-2 text-sm text-gray-400">(4/5)</span> 
+            </div>
+            <button class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600" onclick="showTrivia('KshanaKshanam')">View Cast & Trivia</button>
+        </div>
+      </div>
+      
+      <div class="bg-gray-800 rounded-lg overflow-hidden shadow-md">
+        <img src="https://m.media-amazon.com/images/S/pv-target-images/76c892c729e7c4f4d9dba6f1e6ad79eb2581551d7dd491430027d7ce9089f923.jpg" alt="Shiva" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold">Shiva</h3>
+          <p class="mt-2 text-sm text-gray-400">Shiva (1990) is a Telugu action-drama about a college student caught in a violent student rivalry</p>
+          <div class="flex items-center mt-4">
+            <span class="text-yellow-500">★★★★☆</span> 
+            <span class="ml-2 text-sm text-gray-400">(4/5)</span> 
+        </div>
+          <button class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600" onclick="showTrivia('Shiva')">View Cast & Trivia</button>
+        </div>
+      </div>
+      
+      <div class="bg-gray-800 rounded-lg overflow-hidden shadow-md">
+        <img src="https://assets-in.bmscdn.com/discovery-catalog/events/et00351737-ztneglzfsy-landscape.jpg" alt="Gang Leader" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold">Gang Leader</h3>
+          <p class="mt-2 text-sm text-gray-400">Gangleader (1991) is a gripping action film about a man seeking revenge for his family's destruction.</p>
+          <div class="flex items-center mt-4">
+            <span class="text-yellow-500">★★★★☆</span> 
+            <span class="ml-2 text-sm text-gray-400">(4/5)</span> 
+        </div>
+          <button class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600" onclick="showTrivia('GangLeader')">View Cast & Trivia</button>
+        </div>
+      </div>
+      
+      <div class="bg-gray-800 rounded-lg overflow-hidden shadow-md">
+        <img src="https://i.scdn.co/image/ab67616d0000b2730c74891692ac5adb681fdb9b" alt="Aditya 369" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold">Aditya 369</h3>
+          <p class="mt-2 text-sm text-gray-400">Aditya 369 (1991) is a sci-fi thriller that explores time travel and its consequences.</p>
+          <div class="flex items-center mt-4">
+            <span class="text-yellow-500">★★★★★</span> 
+            <span class="ml-2 text-sm text-gray-400">(5/5)</span> 
+        </div>
+          <button class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600" onclick="showTrivia('Aditya369')">View Cast & Trivia</button>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section id="kollywood-reviews" class="py-12">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8 text-center">Latest 90's MOVIES (KOLLYWOOD)</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+     
+      <div class="bg-gray-800 rounded-lg overflow-hidden shadow-md">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8nPryvpXRh1YlhlxiyWAxsJClvCkIOPa7dw&s" alt="Baasha" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold">Baasha</h3>
+          <p class="mt-2 text-sm text-gray-400">Baasha is a 1995 Tamil action-drama film where a humble auto driver, Manikkam, is forced to confront his violent past as a feared gangster to protect his family and the people he loves.</p>
+          <div class="flex items-center mt-4">
+            <span class="text-yellow-500">★★★★★</span> 
+            <span class="ml-2 text-sm text-gray-400">(5/5)</span> 
+        </div>
+          <button class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600" onclick="showTrivia('Baasha')">View Cast & Trivia</button>
+        </div>
+      </div>
+      
+      <div class="bg-gray-800 rounded-lg overflow-hidden shadow-md">
+        <img src="https://m.media-amazon.com/images/M/MV5BYzgxZDE0OTUtOTk5ZC00NjYxLTkzNTItN2JlN2Y2Nzg4OTQ4XkEyXkFqcGc@._V1_.jpg" alt="Jeans" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold">Jeans</h3>
+          <p class="mt-2 text-sm text-gray-400">Jeans is a 1998 Tamil romantic comedy film where a man embarks on a journey to marry the woman he loves, only to face challenges from his strict father and a complex love triangle.</p>
+          <div class="flex items-center mt-4">
+            <span class="text-yellow-500">★★★★☆</span> 
+            <span class="ml-2 text-sm text-gray-400">(4/5)</span> 
+        </div>
+          <button class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600" onclick="showTrivia('Jeans')">View Cast & Trivia</button>
+        </div>
+      </div>
+      
+      <div class="bg-gray-800 rounded-lg overflow-hidden shadow-md">
+        <img src="https://assets-in.bmscdn.com/discovery-catalog/events/et00001890-zjsysalfdx-landscape.jpg" alt="Indian" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold">Indian</h3>
+          <p class="mt-2 text-sm text-gray-400">Indian (1996) is a Tamil action film where an elderly freedom fighter, seeking justice for the corruption in modern India, takes on corrupt politicians using his own brand of vigilantism.</p>
+          <div class="flex items-center mt-4">
+            <span class="text-yellow-500">★★★★★</span> 
+            <span class="ml-2 text-sm text-gray-400">(5/5)</span> 
+        </div>
+          <button class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600" onclick="showTrivia('Indian')">View Cast & Trivia</button>
+        </div>
+      </div>
+    </div>
+</section>    
+
+  
+  <div id="triviaPopup" class="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center hidden">
+    <div class="bg-gray-800 rounded-lg p-8 w-1/2">
+      <h2 id="movieTitle" class="text-2xl font-bold text-yellow-500 mb-4"></h2>
+      <p id="movieCast" class="text-sm text-gray-400 mb-4"></p>
+      <p id="movieTrivia" class="text-sm text-gray-400"></p>
+      <button onclick="closePopup()" class="mt-4 bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600">Close</button>
+    </div>
+  </div>
+
+
+  <footer id="contact" class="bg-gray-800 py-6">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 #90's Nostalgia. All rights reserved.</p>
+      <p class="mt-2">Contact us at <a href="mailto:contact@90sNostalgia.com" class="text-yellow-500">contact@90SNostalgia.com</a></p>
+    </div>
+  </footer>
+
+  <script>
+    const triviaData = {
+    DDLJ: {
+        cast: ['Shah Rukh Khan', 'Kajol', 'Amrish Puri', 'Farida Jalal'],
+        trivia: 'DDLJ holds the record for the longest-running movie in Indian cinema history.'
+      },
+      HAHK: {
+        cast: ['Salman Khan', 'Madhuri Dixit', 'Anupam Kher'],
+        trivia: 'Hum Aapke Hain Koun was the first Bollywood film to gross over ₹1 billion.'
+      },
+      AAA: {
+        cast: ['Salman Khan', 'Aamir Khan', 'Raveena Tandon', 'Karisma Kapoor'],
+        trivia: 'Andaz Apna Apna gained a cult following despite flopping at the box office initially.'
+      },
+      K3G: {
+        cast: ['Amitabh Bachchan', 'Jaya Bachchan', 'Shah Rukh Khan', 'Kajol', 'Hrithik Roshan', 'Kareena Kapoor'],
+        trivia: 'K3G was one of the first Bollywood films to achieve global success.'
+      },
+      Agneepath: {
+        cast: ['Amitabh Bachchan','Mithun Chakraborty','Danny','Madhavi','Rohini Hattangadi'],
+        trivia: 'The movie was inspired by Scarface(1983).'
+      },
+      Dalapathy: {
+        cast:['Rajinikanth','Mammootty','Shobana','Arvind swamy','Srividya'],
+        trivia:'The movie is based on the friendship between Karna and Durdyodhana.'
+      },
+      KshanaKshanam:{
+        cast:['Venkatesh Daggubati','Sridevi','Paresh Rawal','Rami Reddy'],
+        trivia:'The music by M.M Keervani is loved,especially the song "Jaamu rathiri".'
+      },
+      Shiva:{
+        cast:['Akkineni Nagarjuna','Amala Akkineni','Raghuvaran','J.D Chakravarthy'],
+        trivia:'The movies chain-fight scene became iconic.'
+      },
+      GangLeader:{
+        cast:['Konidela Chiranjeevi','Vijayashanti','Rao Gopal Rao','Murali Mohan'],
+        trivia:'The music by Bappi Lahiri became a super hit.'
+      },
+      Aditya369: {
+        cast:['Nandamuri Balakrishna','Mohini','Sutti Velu','Amrish Puri'],
+        trivia:'First Telugu movie based on Time-travel directed by Singeetham Srinivasa Rao.'
+      },
+      Baasha:{
+        cast:['Rajinikanth','Nagma','Raghuvaran','Janagaraj'],
+        trivia:'The movie elevated Rajinikanth to superstardom.'
+      },
+      Jeans:{
+        cast:['Prashanth','Aishwarya Rai','Nassar','Lakshmi'],
+        trivia:'It was Indias official entry for The Academy Awards in 1998.'
+      },
+      Indian:{
+        cast:['Kamal Hassan','Manisha Koirala','Kasthuri','Sukanya'],
+        trivia:'Kamal Hassan won the National Award for his dual performance'
+      },
+    };
+
+    function showTrivia(movie) {
+      const data = triviaData[movie];
+      if (data) {
+        document.getElementById('movieTitle').textContent = movie.replace(/([A-Z])/g, ' $1').trim();
+        document.getElementById('movieCast').textContent = 'Cast: ' + data.cast.join(', ');
+        document.getElementById('movieTrivia').textContent = 'Trivia: ' + data.trivia;
+        document.getElementById('triviaPopup').classList.remove('hidden');
+      }
+    }
+
+    function closePopup() {
+      document.getElementById('triviaPopup').classList.add('hidden');
+    }
+  </script>
+</body>
+</html>
